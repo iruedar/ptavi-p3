@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-<<<<<<< HEAD
+
 from xml.sax import make_parser
 from xml.sax.handler import ContentHandler
 
@@ -34,6 +34,3 @@ if __name__ == "__main__":
     parser.setContentHandler(ssHandler)
     parser.parse(open('karaoke.smil'))
     print(ssHandler.get_tags())
-=======
-
->>>>>>> 5ea11a956b917c8db785f8dfed5128b14bf95a33
